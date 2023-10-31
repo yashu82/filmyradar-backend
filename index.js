@@ -30,7 +30,7 @@ searchBox(app);
 getMediaList(app);
 
 function pingLink() {
-  const linkToPing = 'https://filmyradar-backend-v8kc.onrender.com/movie/top_rated'; // Replace with the link you want to ping
+  const linkToPing = 'https://filmyradar-backend-5bg0.onrender.com/movie/top_rated'; // Replace with the link you want to ping
   let data = axios.get(linkToPing)
   data.then(res => { })
 }
